@@ -1,0 +1,140 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english,spanish]{babel}
+\usepackage{alphabeta}
+\usepackage{ragged2e}
+\usepackage{fancyhdr}
+
+\usepackage[pdftex]{graphicx}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+
+\linespread{1.06}
+\setlength{\parskip}{8pt plus2pt minus2pt}
+
+\widowpenalty 10000
+\clubpenalty 10000
+
+\newcommand{\eat}[1]{}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\usepackage[official]{eurosym}
+\usepackage{enumitem}
+\setlist{nolistsep,noitemsep}
+\usepackage[hidelinks]{hyperref}
+\usepackage{cite}
+\usepackage{lipsum}
+
+
+\begin{document}
+
+%===========================================================
+\begin{titlepage}
+\begin{center}
+
+% Top 
+{\Large
+ \textbf{INSTITUTO DE EDUCACION SUPERIOR}
+ }
+\includegraphics[width=0.55\textwidth]{logo-cibertec.png}~\\[1cm]
+
+
+% Title
+\HRule \\[0.4cm]
+{ \LARGE 
+  \textbf{Proyecto de Investigaci\'on Aplicada}\\[0.4cm]
+  \emph{Lenguaje de Programaci\'on I}\\[0.4cm]
+}
+\HRule \\[1.5cm]
+
+
+
+% Author
+\textsc{ \large
+  Paredes Bazan, Jhon Sthiven \\[0.1cm]
+  Bch. Student of Informatics\\[0.1cm]}
+  \texttt{i201923419@cibertec.edu.pe}
+
+\vfill
+
+%\textsc{\Large Cyprus University of Technology}\\[0.4cm]
+\textsc{\large Computaci\'on e Inform\'atica,\\Tecnolog\'ias de la informaci\'on}\\[0.4cm]
+
+
+% Bottom
+{\large \today}
+ 
+\end{center}
+\end{titlepage}
+
+\begin{justify}
+\begin{abstract}
+La empresa 'LIBROS Y NOVEDADES SAC.' es una empresa dedicada al rubro de la venta de libros y art\'iculos de escritorio, consolidandose como una de las mejores empresas en el rubro dentro del norte de pa\'is\\[0.4cm]
+Actualmente la empresa presenta problemas con el control de ingresos y salidas de productos el cual le ha tra\'ido diferentes problemas al momento de revisar sus libros contables.\\[0.4cm]
+El objetivo principal de este proyecto es el centranos en implementar un software el cual permita llevar un mejor control tanto de los ingresos de productos como de las ventas registradas en el sistema durante el d\'ia a d\'ia.
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\end{abstract}
+\end{justify}
+\newpage
+
+
+
+%===========================================================
+\tableofcontents
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\newpage
+\setcounter{page}{1}
+
+%===========================================================
+%===========================================================
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Proyecto de Investigaci\'on}
+%\lhead{}
+\cfoot{\thepage}
+\section{Introducci\'on}\label{sec:intro}
+
+La empresa 'LIBROS Y NOVEDADES SAC' es una empresa constituida presente en le mercado liberte\~no desde 1986 posicionandola as\'i como una de las mas grandes empresas en el norte del Per\'u, llegando a tener varias sucursales desde Piura hasta Chimbote.\\[0.4cm]
+Esta empresa busca adem\'as de tener gran notariedad tambien el poder mantenerse en el creciemiento acelerado de las nuevas tecnolog\'ias obteniendo asi mas presencia el mercado nacional, pero sobre todo el ganarse un puesto en el mercado internacional.\\[0.4cm]
+Para ello dicha empresa ha decidido implementar un \'Area de TI con profesionales altamente calificados y preparados para asumir este nuevo reto, poniendo en estas manos la ejecucion de proyectos informaticos, los cuales marcaran un antes y despues en la historia de esta empresa. Para ello se pensado en iniciar en dos \'areas en espec\'ifico: \textbf{Almacen} y \textbf{Contabilidad} en las que a\'un se encuentran trabajando en hojas de papel, las cuales la empresa desea erradicar ya que desea aportar al cuidado del medio ambiente
+
+\newpage
+%=============================================================
+
+
+\section{Justificaci\'on del Proyecto}\label{sec:lit-rev}
+El siguente proyecto de software pensado para la empresa 'LIBROS Y NOVEDADES SAC.' propone una soluci\'on la cual aumentar\'ia la productividad de la empresa, ademas que har\'ia mas r\'apido los procesos de ventas y obtenci\'on de informaci\'on contable y almacenaje mas simple obteniendo asi una disminuci\'on dr\'astica de tiempo ya que dicha infomaci\'on actualmente se encuentra almacenada en hojas de papel y libros contables \footnote[1]{Archivos o documentos de la información financiera de la empresa}.\\
+Ademas este proyecto esta pensado para ser ampliado a las demas \'areas de la empresa haciendola una empresa se que se adapta las nuevas tecnolog\'ias que se vienen desarrollando.
+
+\addcontentsline{toc}{section}{2.1 Aplicabilidad del Proyecto}
+\begin{flushright}
+\section*{2.1 Aplicabilidad del Proyecto}
+\end{flushright}
+\begin{justify}
+
+En este proyecto se aplicara un software\footnote[2]{Conjunto de programas y rutinas de computador para realizar determinadas tareas.} orientado a la obtencion de informes en tiempo real del stock disponible en el almcen asi como la obtencion de las ventas generadas ya sea del d\'ia, del mes o del a\~no.\\ Adem\'as de poner en implentacion a futuro de una pagina web con la cual la pondria en el mostrador en mercado creciende del mercado electronico\footnote[3]{Compra y venta de productos o de servicios a través de internet} 
+\end{justify}
+
+
+\addcontentsline{toc}{section}{2.2 Beneficiarios del Proyecto}
+\begin{flushright}
+\section*{2.2 Beneficiarios del Proyecto}
+\end{flushright}
+\newpage
+%==============================================================
+%\section{Methodology}\label{sec:meth}
+
+%\lipsum[5-6]\cite{latexcompanion}
+%===============================================================
+%\section{Results}\label{sec:res}
+
+%\lipsum[7-8]\cite{knuthwebsite}
+
+%===========================================================
+%===========================================================
+
+%\bibliographystyle{ieeetr}
+%\bibliography{refs}
+
+
+\end{document} 
